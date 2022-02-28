@@ -79,12 +79,25 @@ p {
     color: #fff;
     margin-bottom: 2rem;
 }
-div > a {
+/*div > a {
     color: #6b705c;
     background-color: #FDAEAE;
     display: inline-block;
     padding: 0.25rem 1rem;
     border-radius: 5px;
+}*/
+.transicion{
+    color: #6b705c;
+    background-color: #FDAEAE;
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    border-radius: 5px;
+    transition-property: background-color;
+}
+.transicion:hover{
+    clip-path: ellipse(50% 37% at 50% 50%);
+    transition: clip-path 5s;
+    background-color: #fff;
 }
 /*footer*/
 footer{
