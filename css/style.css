@@ -298,6 +298,17 @@ div img{
     margin-bottom: 15px;
     border-radius: 10px;
 }
+.trends__item{
+    overflow: hidden;
+}
+.trends__item img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;;
+}
+.trends__item img:hover{
+    transform: scale(1.3);
+}
 
 @media screen and (max-width:952px) {
     .menu_items li a{
