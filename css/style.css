@@ -8,21 +8,18 @@
     box-sizing: border-box; /*para que los elementos no se salgan del contenedor*/
 }
 /*mi barra de menu*/
-.menu{
-    background: #fff; /*es el color de la barra menu*/
+/*.menu{
+    background: #fff; /*es el color de la barra menu
     height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*border-bottom: 1px solid #6b705c;*/
+    /*border-bottom: 1px solid #6b705c;
     box-shadow: 5px o 10px rgba(0, 0, 0, .6);
 }
 .enlace{
     height: 100%;
-}
-.logo{
-    height: 100%
 }
 .menu_items{
     display: flex;
@@ -31,8 +28,8 @@
 }
 .menu_items li {
     margin: 0 5px;
-}
-.menu_items li a{
+}*/
+li a{
     border-radius: 15px;
     padding: 5px 10px ;
     text-decoration: none;
@@ -43,12 +40,12 @@
 }
 li a.active, li a:hover{
     background: #FDAEAE;
-    transition: .5s;
+    transition: .2s;
     border-radius: 15px;
     }
 .btn_menu{
     margin-right: 30px;
-    font-size: 25px;
+    font-size: 50px;
     color: #6b705c;
     cursor: pointer;
     display: none;
@@ -74,7 +71,7 @@ li a.active, li a:hover{
 .lorem {
     max-width: 200px;
 }
-p {
+.parrafo{
     line-height: 1.5;
     color: #fff;
     margin-bottom: 2rem;
@@ -100,9 +97,9 @@ p {
     background-color: #fff;
     color: #FDAEAE;
 }
-main{
-    padding-top: 20px;
-    padding-bottom: 30px;
+.espaciodeinicio{
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 /*footer*/
 footer{
