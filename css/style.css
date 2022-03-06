@@ -54,7 +54,7 @@ li a.active, li a:hover{
     display: none;
 }
 /*contenido del index*/
-section {
+.index{
     background-image: url(https://bit.ly/3Jrp3Gi);
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,7 +71,7 @@ section {
     flex-direction: column;
     justify-content: left;
 }
-section > div {
+.lorem {
     max-width: 200px;
 }
 p {
@@ -92,29 +92,34 @@ p {
     display: inline-block;
     padding: 0.25rem 1rem;
     border-radius: 5px;
-    transition-property: background-color;
+    transition-property: background-color color;
 }
 .transicion:hover{
-    clip-path: ellipse(50% 37% at 50% 50%);
-    transition: clip-path 5s;
+    /*clip-path: ellipse(50% 37% at 50% 50%);*/
+    transition: .5s;
     background-color: #fff;
+    color: #FDAEAE;
+}
+main{
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 /*footer*/
 footer{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: small;
     width: 100%;
-    padding: 20px 0px; 
-    margin: 3% auto 0 auto;
-    position: relative; 
+    padding: 10px 0px;
+    /*margin: 3% auto 0 auto;*/
+    position:absolute; 
     background-size: cover; 
     background-color: #FDAEAE;
 }
 .container__footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1000px;
+    justify-content: center;
+    max-width: 1500px;
     margin: auto;
     margin-top: 10px; /* para dar espacio*/ 
     background-size: cover; 
@@ -128,7 +133,7 @@ footer{
 .box__footer h4{
     margin-bottom: 10px;
     color: #6b705c;
-    font-weight: 500;
+    font-weight: 600;
     background-size: cover; 
 }
 .box__footer a{
@@ -249,7 +254,7 @@ textarea{
 }
 #boton{
     background: #FDAEAE;
-    color: #6b705c;
+    color: #fff;
     padding: 10px;
     border-radius: 5px;
 }
@@ -258,15 +263,15 @@ textarea{
 }
 /*reservas*/
 label{
-text-align: center;
+text-align: justify;
 }
 div label{
     font-family: 'Noto Sans KR', sans-serif;
-    width: 900px;
+    width: 1000px;
     margin: auto;
-    padding: 30px 15px;
+    padding: 15px 5px;
     color: #fff;
-    margin-top: 20px;
+    margin-top: 10px;
     box-sizing: border-box;
 }
 /*galeria*/
@@ -310,12 +315,12 @@ div img{
     transform: scale(1.3);
 }
 
-@media screen and (max-width:952px) {
+@media screen and (max-width:992px) {
     .menu_items li a{
         font-size: 16px;
     }
 }
-@media screen and (max-width: 858px) {
+@media screen and (max-width: 768px) {
     .menu{
         height:65px
     }
@@ -348,7 +353,7 @@ div img{
         color: #FDAEAE;
     }
 }
-@media screen and (max-width: 858px) and (orientaion:landscape) {
+@media screen and (max-width: 576px) and (orientaion:landscape) {
     .menu_items li{
         margin: 5px 0 0 0;
     }
