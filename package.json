@@ -1,0 +1,19 @@
+{
+  "name": "peluqueria-dominguezbarco",
+  "version": "1.0.0",
+  "description": "Entrega de CREAR REPOSITORIO EN GITHUB",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass style.scss css/style.min.css -w --no-source-map -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CandelaDB/peluqueria-dominguezbarco.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CandelaDB/peluqueria-dominguezbarco/issues"
+  },
+  "homepage": "https://github.com/CandelaDB/peluqueria-dominguezbarco#readme"
+}
