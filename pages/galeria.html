@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
@@ -11,12 +8,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Galeria</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">   <a class="navbar-brand" href="../index.html"> <img src="../assets/icons/AURA.png" width="100" height="100" alt="icono de pag"></a>
+            <div class="container-fluid">   <a class="navbar-brand" href="../index.html"> <img src="../assets/icons/AURA.png" width="120" height="100" alt="icono de pag"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -29,44 +28,46 @@
                     <a class="nav-link" href="./servicios.html">SEVICIOS</a>
                 </li>
                 <li class="nav-item menuderecha">
-                    <a class="nav-link" aria-current="page" href="./consultas.html">CONSULTAS</a>
+                    <a class="nav-link" aria-current="page" href="./pages/consultas.html">CONSULTAS</a>
                 </li>
                 <li class="nav-item menuderecha">
-                    <a class="nav-link" aria-current="page" href="./reservas.html">RESERVAS</a>
+                    <a class="nav-link" aria-current="page" href="./pages/reservas.html">RESERVAS</a>
                 </li>
                 <li class="nav-item menuderecha">
-                    <a class="nav-link" aria-current="page" href="./galeria.html">GALERIA</a>
+                    <a class="nav-link" aria-current="page" href="./pages/galeria.html">GALERIA</a>
                 </li>
                 </ul>
             </div>
             </div>
         </nav>
     </header> 
-    <main class="contenido">
-        <div class="bock__incert">    
-            <div class="heading">
-                <h2 class="trends__item">NUESTRA GALERIA:</h2>
+    <main>   
+            <div class="text-center p-5">
+                <h2>NUESTRA GALERIA:</h2>
             </div>
-            <div class="bock"> 
-            <div class="dream">
-                <img src="../assets/image/pexels-cottonbro-3993310-min.jpg" alt="foto" class="bg-primary">                   
-                <img src="../assets/image/pexels-cottonbro-3993312-min.jpg" alt="foto" class="bg-primary">                                     
+            <div class="row"> 
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <img class="imgGaleria" src="../assets/image/pexels-cottonbro-3993310-min.jpg" alt="foto">                   
             </div>
-            <div class="dream">
-                <img src="../assets/image/pexels-cottonbro-3993443-min.jpg" alt="foto" class="bg-secondary">                   
-                <img src="../assets/image/pexels-cottonbro-3993449-min.jpg" alt="foto" class="bg-secondary">                   
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <img class="imgGaleria" src="../assets/image/pexels-cottonbro-3993312-min.jpg" alt="foto">                                     
             </div>
-            <div class="dream">                   
-                <img src="../assets/image/pexels-cottonbro-3993463-min.jpg" alt="foto" class="bg-danger">
-                <img src="../assets/image/pexels-ali-pazani-4721981-min.jpg" alt="foto" class="bg-danger">                 
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <img class="imgGaleria" src="../assets/image/pexels-cottonbro-3993443-min.jpg" alt="foto">                   
             </div>
-    </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <img class="imgGaleria" src="../assets/image/pexels-cottonbro-3993449-min.jpg" alt="foto">                   
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">                   
+                <img class="imgGaleria" src="../assets/image/pexels-cottonbro-3993463-min.jpg" alt="foto">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <img class="imgGaleria" src="../assets/image/pexels-cottonbro-3993142.jpg" alt="foto">                 
+            </div>
         </div>        
     </main>
     <footer>
         <div class="container__footer">
-            <div class="box__footer">            
-            </div>
         <div class="box__footer">
             <h4>DIRECCION</h4>
             <p>Av. Libertad 33985, B1646DAT Gran Buenos Aires, Provincia de Buenos Aires</p>
@@ -77,10 +78,10 @@
         </div>
         <div class="box__footer">
             <h4>REDES SOCIALES</h4>
-            <a href="www.facebook.com"><i class="fa-brands fa-facebook-square"></i> FACEBOOK</a>
-            <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i> INSTAGRAM</a>
-            <a href="www.twitter.com"><i class="fa-brands fa-twitter-square"></i> TWITTER</a>
-            <a href="www.youtube.com"><i class="fa-brands fa-youtube"></i> YOUTUBE</a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square"></i> Facebook</a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://www.twitter.com"><i class="fa-brands fa-twitter-square"></i> Twitter</a>
+            <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i> Youtube</a>
         </div>
     </div>
     <div class="box__copyright">
@@ -89,7 +90,6 @@
             <b>CandelaDominguezBarco</b></p>
         </div>
     </footer>
-    <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>      
 </body>
 </html>

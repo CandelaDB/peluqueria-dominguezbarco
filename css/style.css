@@ -39,13 +39,13 @@
     color: #6b705c;
 }
 .menuderecha.active, .menuderecha:hover{
-    background: #FDAEAE;
+    background: #fac1c1;
     transition: .2s;
     border-radius: 15px;
     }
 .btn_menu{
     margin-right: 20px;
-    font-size: 50px;
+    font-size: 40px;
     color: #6b705c;
     cursor: pointer;
     display: none;
@@ -55,21 +55,22 @@
     background-image: url(https://bit.ly/3Jrp3Gi);
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: justify;
     
-    height: 70vh;
+    height: 85vh;
     width: 100%;
-    max-width: 1000px;
-    padding: 4rem;
+    max-width: 1600px;
     margin: 0 auto;
-    border-radius: 10px;
+    padding: 4rem;
+    border-radius: 3px;
     
     display: flex;
     flex-direction: column;
-    justify-content: left;
 }
 .lorem {
+    font-size: large;
     max-width: 200px;
+    text-align: justify ;
+    padding-top: 60px;
 }
 .parrafo{
     line-height: 1.5;
@@ -84,18 +85,18 @@
     border-radius: 5px;
 }*/
 .transicion{
-    color: #6b705c;
-    background-color: #FDAEAE;
+    color: #fff;
+    background-color: #fac1c1;
     display: inline-block;
     padding: 0.25rem 1rem;
     border-radius: 5px;
-    transition-property: background-color color;
+    transition-property: color;
 }
 .transicion:hover{
     /*clip-path: ellipse(50% 37% at 50% 50%);*/
     transition: .5s;
     background-color: #fff;
-    color: #FDAEAE;
+    color: #fac1c1;
 }
 .espaciodeinicio{
     padding-top: 10px;
@@ -110,12 +111,12 @@ footer{
     /*margin: 3% auto 0 auto;*/
     position:absolute; 
     background-size: cover; 
-    background-color: #FDAEAE;
+    background-color: #fac1c1;
 }
 .container__footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     max-width: 1500px;
     margin: auto;
     margin-top: 10px; /* para dar espacio*/ 
@@ -128,22 +129,24 @@ footer{
     background-size: cover; 
 }
 .box__footer h4{
+    font-size: medium;
     margin-bottom: 10px;
     color: #6b705c;
-    font-weight: 600;
+    font-weight: 500;
     background-size: cover; 
 }
 .box__footer a{
-    text-align: justify;
+    font-size: small;
+    text-align: center;
     color: #6b705c;
-    font-weight: 600;
+    font-weight: 500;
     background-size: cover; 
 }
 .box__footer p{
     text-align: justify;
     margin-top: 10px;
     color: #6b705c;
-    font-weight: 600;
+    font-weight: 500;
     background-size: cover; 
 }
 .box__footer a:hover{
@@ -164,13 +167,11 @@ footer{
     color: #6b705c;
     background-size: cover; 
 }
-p b{
-    background-size: cover; 
-}
+
 .box__copyright hr{
     border: none;
     height: 1px;
-    background-color: #fff;
+    background-color: #6b705c;
 }
 
 /*servicios*/
@@ -263,7 +264,7 @@ input textarea{
     box-sizing: border-box;
 }
 /*galeria*/
-.contenido{
+/*.contenido{
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -304,27 +305,16 @@ input textarea{
     text-align: center;
     margin: 40px 40px 0 20px;
     border-radius: 10px;
-}
-.trends__item{
-    overflow: hidden;
+}*/
+.imgGaleria{
     width: 100%;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    height: 100%;
-    transition: transform 0.5s;
-}
-.trends__item :hover{
-    transform: scale(1.3);
-    overflow: hidden;
-    width: 100%;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    height: 100%;
+    height: 700px;
+    border-radius: 5px;
 }
 
 @media screen and (max-width:992px) {
     .menu_items li a{
-        font-size: 16px;
+        font-size: 25px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -338,7 +328,7 @@ input textarea{
         position: fixed;
         width: 100vw;
         height: calc(100% - 65px); /*el 100% menos el tamaño de la barra de menu*/
-        background-color: #FDAEAE;
+        background-color: #fac1c1;
         top: -100vh;
         text-align: center;
         transition: all .4s;
@@ -357,7 +347,7 @@ input textarea{
         font-weight: bold;
     }
     .menu_items li a:hover {
-        color: #FDAEAE;
+        color: #fac1c1;
     }
 }
 @media screen and (max-width: 576px) and (orientaion:landscape) {
