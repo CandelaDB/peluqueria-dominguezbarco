@@ -1,0 +1,10 @@
+@mixin mi {
+    color: #6b705c;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    }
+    .miH2{
+        @include mi;
+    }

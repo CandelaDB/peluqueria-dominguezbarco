@@ -1,0 +1,31 @@
+*{
+    font-family: $font-family ;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box; /*para que los elementos no se salgan del contenedor*/
+}
+
+.menuderecha {
+    border-radius: 15px;
+    padding: 3px 6px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-transform: uppercase;
+    color: $color-gris;
+}
+.menuderecha.active, .menuderecha:hover{
+    background: $color-rosa ;
+    transition: .2s;
+    border-radius: 15px;
+    }
+.btn_menu{
+    margin-right: 20px;
+    font-size: 40px;
+    color: $color-gris;
+    cursor: pointer;
+    display: none;
+}

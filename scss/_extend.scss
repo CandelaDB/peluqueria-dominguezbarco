@@ -1,0 +1,9 @@
+.unExtend{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.otroExtend{
+    @extend .unExtend;
+    color: aqua;
+}

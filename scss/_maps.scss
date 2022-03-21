@@ -1,0 +1,6 @@
+$mapRedes:(facebook: rgb(11, 11, 241), instagram:rgb(209, 33, 63), twitter: rgb(116, 116, 221), youtube:red);
+@each $red, $color in $mapRedes {
+    .#{$red} {
+        color: $color;
+    }
+}

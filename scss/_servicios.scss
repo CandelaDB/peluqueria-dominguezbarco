@@ -1,0 +1,22 @@
+/*servicios*/
+h1{
+    font-family: $font-family;
+    font-size: 30px;
+    margin-top: auto;
+    margin-bottom: 50px;
+    color: $color-gris;
+    text-align: center
+}
+.serv{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 40px 40px 0 20px;
+}
+.listades{
+    color: $color-blanco;
+    border: 2px solid $color-rosa;
+    padding-top: 20px;
+    background-color: $color-gris;
+}
