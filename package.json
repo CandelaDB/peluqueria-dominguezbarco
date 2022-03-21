@@ -4,7 +4,7 @@
   "description": "Entrega de CREAR REPOSITORIO EN GITHUB",
   "main": "index.js",
   "scripts": {
-    "dev": "sass style.scss css/style.min.css -w --no-source-map -s compressed"
+    "dev": "sass scss/style.scss css/style.css -w --no-source-map -s compressed"
   },
   "repository": {
     "type": "git",
